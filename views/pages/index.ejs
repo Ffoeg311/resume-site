@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <% include ../partials/header.ejs %>
+</head>
+
+<body>
+
+  <% include ../partials/nav.ejs %>
+
+<div class="jumbotron text-center">
+  <div class="container">
+    <a href="/" class="lang-logo">
+      <img src="/lang-logo.png">
+    </a>
+    <h1>Hi I'm Geoff Porter, a web developer</h1>
+    <p>My mission is to build beautiful web applications, and build them right.</p>
+  </div>
+</div>
+<div class="container">
+  <hr>
+  <div class="row">
+    <div class="col-md-6">
+      <h3>I'm Great At</h3>
+      <ul class="list-group">
+        <li class="list-group-item">Ruby on Rails<span class="glyphicon glyphicon-ok-sign pull-right"></span></li>
+        <li class="list-group-item">HTML/CSS<span class="glyphicon glyphicon-ok-sign pull-right"></span></li>
+        <li class="list-group-item">JavaScript<span class="glyphicon glyphicon-ok-sign pull-right"></span></li>
+        <li class="list-group-item">PostgreSQL<span class="glyphicon glyphicon-ok-sign pull-right"></span></li>
+        <li class="list-group-item">Heroku<span class="glyphicon glyphicon-ok-sign pull-right"></span></li>
+      </ul>
+    </div>
+    <div class="col-md-6">
+      <h3>Services</h3>
+      <div class="list-group">
+            <a href="#" class="list-group-item">
+              <h4 class="list-group-item-heading">Web Development</h4>
+              <p class="list-group-item-text">Full-stack web applications, rapid prototyping, deployments</p>
+            </a>
+            <a href="#" class="list-group-item">
+              <h4 class="list-group-item-heading">Professional Development</h4>
+              <p class="list-group-item-text">Customized lesson plans, one-on-one assistance</p>
+            </a>
+            <a href="#" class="list-group-item">
+              <h4 class="list-group-item-heading">Technical Leadership</h4>
+              <p class="list-group-item-text">Code review, application design, requirements gathering</p>
+            </a>
+          </div>
+    </div>
+  </div> <!-- row -->
+  <hr>
+  <div class="row">
+    <h3>Portfolio</h3>
+  </div>
+  <div class="row">
+    <div class="col-md-6">
+      <div class="panel panel-primary">
+        <div class="panel-heading">
+          <h3 class="panel-title"><a href="https://glacial-scrubland-21840.herokuapp.com">Doug</a></h3>
+        </div>
+        <div class="panel-body">
+          A Digg clone that I built from scratch in a couple of days as a portfolio piece. Built in Ruby on Rails and deployed to heroku. It uses devise and cancan for authentication and bootstrap for front-end formatting.
+        </div>
+      </div>
+    </div>
+
+     <div class="col-md-6">
+      <div class="panel panel-primary">
+        <div class="panel-heading">
+          <h3 class="panel-title"><a href="https://www.missionplnr.com">Mission Plnr</a></h3>
+        </div>
+        <div class="panel-body">
+          A side-project I built to help plan snowboarding trips and other outdoor excursions. Uses omniauth to allow google login. Uses heroku for the application hosting and AWS EC2 for asset hosting.
+        </div>
+      </div>
+    </div>
+
+  </div>
+   <div class="alert alert-info text-center" role="alert">
+    Please do work through the Getting Started guide, even if you do know how to build such an application.  The guide covers the basics of working with Heroku, and will familiarize you with all the concepts you need in order to build and deploy your own apps.
+  </div>
+</div>
+
+
+</body>
+</html>
