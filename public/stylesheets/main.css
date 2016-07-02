@@ -39,7 +39,10 @@
 .fill-it
 {
   font-size: 6.6em;
-  
+}
+.thumbnail
+{
+  max-width: 100%;
 }
 
 
